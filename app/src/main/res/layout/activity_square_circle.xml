@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorStartBorder"
+    android:orientation="vertical"
+    tools:context="productions.darthplagueis.brainpower.SquareCircleActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/child_margin"
+        android:layout_weight=".45"
+        android:background="@color/colorStartActivity"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/square_circle_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/child_margin"
+            android:background="@drawable/shapes" />
+
+        <TextView
+            android:id="@+id/square_circle_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/child_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/square_circle_text"
+            android:textAlignment="center"
+            android:textColor="@color/colorStartText"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:background="@color/colorStartActivity"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/orange_circle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/child_margin"
+            android:layout_weight="1"
+            android:background="@drawable/shapes01" />
+
+        <ImageButton
+            android:id="@+id/grey_circle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/child_margin"
+            android:layout_weight="1"
+            android:background="@drawable/shapes02" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".3"
+        android:background="@color/colorStartActivity"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/broken_circle_button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/child_margin"
+            android:background="@drawable/shapes03" />
+
+    </LinearLayout>
+</LinearLayout>

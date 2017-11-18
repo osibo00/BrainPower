@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorStartBorder"
+    android:orientation="vertical"
+    tools:context="productions.darthplagueis.brainpower.FriendshipActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/child_margin"
+        android:layout_weight=".3"
+        android:background="@color/colorStartActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/friendship_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/child_margin_x2"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/friendship_text"
+            android:textAlignment="center"
+            android:textColor="@color/colorStartText"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:background="@color/colorStartActivity"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/friend01_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/child_margin"
+            android:layout_weight="1"
+            android:background="@drawable/friendship01" />
+
+        <ImageButton
+            android:id="@+id/friend02_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/child_margin"
+            android:layout_weight="1"
+            android:background="@drawable/friendship02" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".3"
+        android:background="@color/colorStartActivity"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/friend03_button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/child_margin"
+            android:background="@drawable/friendship03" />
+
+    </LinearLayout>
+</LinearLayout>

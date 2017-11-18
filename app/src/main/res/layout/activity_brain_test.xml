@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="productions.darthplagueis.brainpower.BrainTestActivity">
+
+    <TextView
+        android:id="@+id/brain_test_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:text="@string/braintest_textview"
+        android:textSize="@dimen/text_size"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/cardview_margin"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/braintest_recyclerview"
+        android:layout_marginBottom="@dimen/recycler_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brain_test_textview">
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/braintest_selected"
+        android:text="@string/braintest_button"
+        android:textColor="@color/colorStartText"
+        android:textSize="@dimen/text_size"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

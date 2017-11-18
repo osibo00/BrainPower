@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Brain Power</string>
+
+    <!-- UI resources-->
+    <string name="which_side"> Which side of your brain is more dominant? </string>
+    <string name="home_button">Get Started</string>
+    <string name="start_btn01">Quiz One</string>
+    <string name="start_btn02">Quiz Two</string>
+    <string name="rotation_text"> In which direction is the dancer turning? </string>
+    <string name="three_shape_text"> Of the following, which picture appeals to you most? </string>
+    <string name="square_circle_text"> This picture is most similar to </string>
+    <string name="friendship_text"> Of the following, which picture best fits the theme of friendship? </string>
+    <string name="leftright_head"> Put your hand on your head. </string>
+    <string name="leftright_head01"> Which hand did you use? </string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+    <string name="leftright_cross">Cross your hands over your chest.</string>
+    <string name="leftright_cross01"> Which hand is on top? </string>
+    <string name="leftright_cross_legs"> Cross your legs. </string>
+    <string name="leftright_cross_legs01"> Which leg is on top? </string>
+    <string name="results_left">You are left-brained.</string>
+    <string name="results_right">You are right-brained.</string>
+    <string name="results_button">Start Over</string>
+    <string name="results_home_button">Home</string>
+    <string name="disagree">Disagree</string>
+    <string name="neutral">Neutral</string>
+    <string name="Agree">Agree</string>
+    <string name="braintest_textview">Select the statements with which you agree.</string>
+    <string name="braintest_button">Submit Selected</string>
+
+    <!-- Brain Test questions. -->
+    <string name="question01">I do not need others praise.</string>
+    <string name="question02">I would prefer a class in mathematics to a class in pottery.</string>
+    <string name="question03">I never show up late.</string>
+    <string name="question04">I don\'t bother to the read instructions before I start putting something together.</string>
+    <string name="question05">I could not live in a mess.</string>
+    <string name="question06">I am totally random.</string>
+    <string name="question07">I like working with words.</string>
+    <string name="question08">I behave in a businesslike manner.</string>
+    <string name="question09">I come up with something new.</string>
+    <string name="question10">I am not easily disturbed by events.</string>
+    <string name="question11">I rarely cry during sad movies.</string>
+    <string name="question12">I plan my life logically.</string>
+    <string name="question13">I need a creative outlet.</string>
+    <string name="question14">I make decisions based on facts\, not feelings.</string>
+    <string name="question15">I make a mess of things.</string>
+    <string name="question16">I am romantic.</string>
+    <string name="question17">I prize logic above all else.</string>
+    <string name="question18">I am calm even in tense situations.</string>
+</resources>

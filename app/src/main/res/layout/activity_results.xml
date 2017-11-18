@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorStartBorder"
+    android:orientation="vertical"
+    tools:context="productions.darthplagueis.brainpower.ResultsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/child_margin"
+        android:layout_weight="1"
+        android:background="@color/colorStartActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/results_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/child_margin"
+            android:background="@color/colorStartBorder"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/colorStartText"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/results_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/child_margin"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/results_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/child_margin"
+            android:layout_marginLeft="@dimen/child_margin"
+            android:layout_marginRight="@dimen/child_margin"
+            android:background="@color/colorStartButton"
+            android:text="@string/results_button"
+            android:textColor="@color/colorStartText"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/go_home_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/child_margin"
+            android:layout_marginLeft="@dimen/child_margin"
+            android:layout_marginRight="@dimen/child_margin"
+            android:background="@color/colorStartButton"
+            android:text="@string/results_home_button"
+            android:textColor="@color/colorStartText"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

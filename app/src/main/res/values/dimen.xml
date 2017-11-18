@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="child_margin">15dp</dimen>
+    <dimen name="child_margin_x2">30dp</dimen>
+    <dimen name="leftright_margin">300dp</dimen>
+    <dimen name="radio_button_margin">50dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="braintest_height">250dp</dimen>
+    <dimen name="cardview_radius">10dp</dimen>
+    <dimen name="cardview_margin">5dp</dimen>
+    <dimen name="recycler_margin">50dp</dimen>
+</resources>

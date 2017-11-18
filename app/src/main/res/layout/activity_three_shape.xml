@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorStartBorder"
+    android:orientation="vertical"
+    tools:context="productions.darthplagueis.brainpower.ThreeShapeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:background="@color/colorStartActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/child_margin"
+            android:background="@color/colorStartBorder"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/three_shape_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/child_margin_x2"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/three_shape_text"
+                android:textAlignment="center"
+                android:textColor="@color/colorStartText"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/child_margin_x2"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/circle_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/child_margin"
+            android:layout_weight="1"
+            android:background="@drawable/circle_shape" />
+
+        <ImageButton
+            android:id="@+id/abstract_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/child_margin"
+            android:layout_weight="1"
+            android:background="@drawable/abstract_shape" />
+
+        <ImageButton
+            android:id="@+id/doodle_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/child_margin"
+            android:layout_weight="1"
+            android:background="@drawable/doodle_shape" />
+
+    </LinearLayout>
+
+</LinearLayout>
